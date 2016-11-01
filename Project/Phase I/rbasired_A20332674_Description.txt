@@ -1,0 +1,38 @@
+will_buy Stategy:
+
+		Inorder to beat other agents in the given market i have followed the following strategy:
+
+		* probability > 0.7 : with this i can overcome the agents in the Fancy Market as the ratio of good to bad is 2:1.
+		* prob > 0.5 and price/value < 0.3 : the following condition beats the agents in Fair Market as the ratio of good to bad is 1:2
+		* price/value < 0.4 : For a Junk Yard this condition lets my agent to lead other agents in the given world.
+		* The below mentioned values are the sample values when executed.
+
+--------------------------------------------------
+FAIR MARKET
+--------------------------------------------------
+Agent_hp:				$102,446.19
+Agent_ratio_0.75:			$85,881.62
+Agent_ratio_0.50:			$121,035.77
+Agent_ratio_0.25:			$91,380.61
+Agent_buy_all:				$-34,153.38
+Agent_agent_rbasired:			$134,231.22
+
+--------------------------------------------------
+JUNK YARD
+--------------------------------------------------
+Agent_hp:				$39,077.98
+Agent_ratio_0.75:			$-35,092.20
+Agent_ratio_0.50:			$36,158.19
+Agent_ratio_0.25:			$41,007.56
+Agent_buy_all:				$-176,254.32
+Agent_agent_rbasired:			$58,379.91
+
+--------------------------------------------------
+FANCY MARKET
+--------------------------------------------------
+Agent_hp:				$228,469.76
+Agent_ratio_0.75:			$241,064.69
+Agent_ratio_0.50:			$223,330.03
+Agent_ratio_0.25:			$143,416.45
+Agent_buy_all:				$192,083.21
+Agent_agent_rbasired:			$255,938.62

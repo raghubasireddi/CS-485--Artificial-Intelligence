@@ -1,0 +1,175 @@
+fit_a_classifier Stategy:
+
+		Inorder to beat agent BernoulliNB for atleast 7 DataSets in the given 12 DataSets with training, validation and test data I have followed the following strategy:
+
+DataSets that my classifiers have crossed or achieved over the existing BernoulliNB:
+
+	* DataSetIII
+	* DataSetIV
+	* DataSetV
+	* DataSetVI
+	* DataSetIX
+	* DataSetXI
+	* DataSetXII
+
+Classifiers Implemented:
+
+	* DecisionTreeClassifier
+	* SVC
+	* RandomForestClassifier
+	* BernoulliNB
+	* ExtraTreesClassifier
+	* AdaBoostClassifier
+	* GradientBoostingClassifier
+
+Criteria or Comparison Implementation:
+	* cross_val_score(Classifer, X_validation, y_validation)
+		Inorder to decide which classifier i should be selecting depending on the validation data set i have applied this particular method which returns the score of each entity and considered the mean value.
+
+
+The following is the sample output retrieved for 12 datasets:
+
+DataSet I
+
+Ada Boost Classifier
+--------------------------------------------------
+SIMULATION RESULTS ON THE VALIDATION DATA
+--------------------------------------------------
+Agent_ratio_0.75:		$2,904,000.00
+Agent_ratio_0.50:		$2,565,000.00
+Agent_ratio_0.25:		$1,839,000.00
+Agent_nb:			$3,285,600.00
+Agent_rbasired:			$2,575,100.00
+
+DataSet II
+
+Ada Boost Classifier
+--------------------------------------------------
+SIMULATION RESULTS ON THE VALIDATION DATA
+--------------------------------------------------
+Agent_ratio_0.75:		$2,808,000.00
+Agent_ratio_0.50:		$2,505,000.00
+Agent_ratio_0.25:		$1,803,000.00
+Agent_nb:			$3,090,950.00
+Agent_rbasired:			$2,506,700.00
+
+
+DataSet III
+
+SVM Classifier
+--------------------------------------------------
+SIMULATION RESULTS ON THE VALIDATION DATA
+--------------------------------------------------
+Agent_ratio_0.75:		$2,776,000.00
+Agent_ratio_0.50:		$2,485,000.00
+Agent_ratio_0.25:		$1,791,000.00
+Agent_nb:			$2,822,050.00
+Agent_rbasired:			$3,539,450.00
+
+
+DataSet IV
+GRA Boost Classifier
+--------------------------------------------------
+SIMULATION RESULTS ON THE VALIDATION DATA
+--------------------------------------------------
+Agent_ratio_0.75:		$2,888,000.00
+Agent_ratio_0.50:		$2,555,000.00
+Agent_ratio_0.25:		$1,833,000.00
+Agent_nb:			$2,852,950.00
+Agent_rbasired:			$3,063,350.00
+
+DataSet V
+SVM Classifier
+--------------------------------------------------
+SIMULATION RESULTS ON THE VALIDATION DATA
+--------------------------------------------------
+Agent_ratio_0.75:		$840,000.00
+Agent_ratio_0.50:		$1,275,000.00
+Agent_ratio_0.25:		$1,065,000.00
+Agent_nb:			$1,369,800.00
+Agent_rbasired:			$1,688,900.00
+
+DataSet VI
+SVM Classifier
+--------------------------------------------------
+SIMULATION RESULTS ON THE VALIDATION DATA
+--------------------------------------------------
+Agent_ratio_0.75:		$848,000.00
+Agent_ratio_0.50:		$1,280,000.00
+Agent_ratio_0.25:		$1,068,000.00
+Agent_nb:			$1,414,250.00
+Agent_rbasired:			$2,271,500.00
+
+
+DataSet VII
+Ada Boost Classifier
+--------------------------------------------------
+SIMULATION RESULTS ON THE VALIDATION DATA
+--------------------------------------------------
+Agent_ratio_0.75:		$808,000.00
+Agent_ratio_0.50:		$1,255,000.00
+Agent_ratio_0.25:		$1,053,000.00
+Agent_nb:			$1,627,850.00
+Agent_rbasired:			$1,260,900.00
+
+
+DataSet VIII
+Ada Boost Classifier
+--------------------------------------------------
+SIMULATION RESULTS ON THE VALIDATION DATA
+--------------------------------------------------
+Agent_ratio_0.75:		$792,000.00
+Agent_ratio_0.50:		$1,245,000.00
+Agent_ratio_0.25:		$1,047,000.00
+Agent_nb:			$1,888,550.00
+Agent_rbasired:			$1,245,400.00
+
+
+
+DataSet IX
+Bernoulli Classifier
+--------------------------------------------------
+SIMULATION RESULTS ON THE VALIDATION DATA
+--------------------------------------------------
+Agent_ratio_0.75:		$-1,104,000.00
+Agent_ratio_0.50:		$60,000.00
+Agent_ratio_0.25:		$336,000.00
+Agent_nb:			$843,900.00
+Agent_rbasired:			$843,900.00
+
+
+DataSet X
+Ada Boost Classifier
+--------------------------------------------------
+SIMULATION RESULTS ON THE VALIDATION DATA
+--------------------------------------------------
+Agent_ratio_0.75:		$-1,160,000.00
+Agent_ratio_0.50:		$25,000.00
+Agent_ratio_0.25:		$315,000.00
+Agent_nb:			$598,100.00
+Agent_rbasired:			$36,350.00
+
+DataSet XI
+SVM Classifier
+--------------------------------------------------
+SIMULATION RESULTS ON THE VALIDATION DATA
+--------------------------------------------------
+Agent_ratio_0.75:		$-1,256,000.00
+Agent_ratio_0.50:		$-35,000.00
+Agent_ratio_0.25:		$279,000.00
+Agent_nb:			$414,350.00
+Agent_rbasired:			$937,950.00
+
+
+DataSet XII
+GRA Boost Classifier
+--------------------------------------------------
+SIMULATION RESULTS ON THE VALIDATION DATA
+--------------------------------------------------
+Agent_ratio_0.75:		$-1,240,000.00
+Agent_ratio_0.50:		$-25,000.00
+Agent_ratio_0.25:		$285,000.00
+Agent_nb:			$243,050.00
+Agent_rbasired:			$476,100.00
+
+
